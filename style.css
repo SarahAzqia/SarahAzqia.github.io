@@ -1,0 +1,49 @@
+/* Mengatur font dasar untuk seluruh halaman */
+body {
+    font-family: 'Poppins', sans-serif; /* Anda bisa ganti dengan font favorit dari Google Fonts */
+}
+
+/* Memberi jarak antar bagian */
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Membuat gambar profil menjadi bulat dan responsif */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk ikon sosial media */
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Warna biru primer Bootstrap */
+}
+
+/* Styling untuk ikon skill */
+.skill-icon {
+    font-size: 3rem;
+    color: #007bff;
+    transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+
+/* Memastikan gambar di kartu proyek tidak meluber */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
